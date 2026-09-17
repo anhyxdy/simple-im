@@ -1,4 +1,4 @@
-# IMChatService - Go即时通信系统
+# `simple-im`- Go即时通信系统
 
 ## 项目简介
 
