@@ -24,9 +24,9 @@
 ## 使用教程
 
     1. 克隆项目到本地：
-       ``bash        git clone https://github.com/yourusername/IMChatService.git        ``
+       ``bash        git clone https://github.com/yourusername/simple-im.git        ``
     2. 进入项目目录：
-       ``bash        cd IMChatService        ``
+       ``bash        cd simple-im        ``
     3. 安装依赖：
        ``bash        go mod tidy        ``
     4. 配置数据库连接：
