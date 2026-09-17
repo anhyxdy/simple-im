@@ -23,18 +23,39 @@
 
 ## 使用教程
 
-    1. 克隆项目到本地：
-       ``bash        git clone https://github.com/yourusername/simple-im.git        ``
-    2. 进入项目目录：
-       ``bash        cd simple-im        ``
-    3. 安装依赖：
-       ``bash        go mod tidy        ``
-    4. 配置数据库连接：
-       - 编辑 `dao/dao.go` 文件，修改数据库连接配置。
-    5. 运行项目：
-       ``bash        go run main.go        ``
-    6. 启动客户端：
-       ``bash        go run client/main.go        ``
+1. 克隆项目到本地
+
+```bash
+git clone https://github.com/anhyxdy/simple-im.git
+```
+
+2. 进入项目目录
+
+```bash
+cd simple-im
+```
+
+3. 安装依赖
+
+```bash
+go mod tidy
+```
+
+4. 配置数据库连接
+
+- 编辑 `dao/dao.go` 文件，修改数据库连接配置。
+
+5. 启动服务端
+
+```bash
+go run main.go
+```
+
+6. 新开终端，启动客户端
+
+```bash
+go run client/main.go
+```
 
 ## 学习资源
 
